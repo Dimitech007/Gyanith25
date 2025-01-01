@@ -73,8 +73,8 @@ body {
 .description {
   position: relative;
   background: green;
-  height: 900px;
-  width: 300px;
+  height: 300px;
+  width: 900px;
   background: linear-gradient(180deg, #FFFFFF 59.6%, #D7DBDF 100%);
 
 }
@@ -82,8 +82,8 @@ body {
 .team-details {
 background: radial-gradient(50% 50% at 50% 50%, rgba(1, 46, 77, 0.26) 0%, rgba(3, 106, 179, 0.26) 100%);
     
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 200px;
 }
 .deschead {
   margin-left: 450px;
@@ -117,12 +117,12 @@ text-decoration-skip-ink: none;
 .detail{
     margin-left:50px;
     font-family: Kantumruy;
-font-size: 20px;
+/*font-size: 20px;
 font-weight: 300;
 line-height: 36.13px;
 text-align: left;
 text-underline-position: from-font;
-text-decoration-skip-ink: none;
+text-decoration-skip-ink: none;*/
 
 }
 .header {
