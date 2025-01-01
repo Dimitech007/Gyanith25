@@ -20,17 +20,111 @@ body {
 
 .container {
   margin: 0px 20px;
-  position: absolute;
-  top: 20px;
+  gap: 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 1200px;
-  height: 600px;
+  height: 650px;
   background: rgba(255, 255, 255, 0.7);
   opacity: 1;
   border-radius: 20px;
 }
 
+.events {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1100px;
+  height: 180px;
+  background: transparent;
+}
+
+.event {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: fit-content;
+  height: 100px;
+}
+.event img {
+  width: 80px;
+  height: 80px;
+}
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 282px;
+  height: 80px;
+  border-radius: 25px;
+  background: green;
+  margin-left: 20px;
+}
+
+.desc-box {
+  display: flex;
+  width: 1100px;
+  height: 300px;
+  background: transparent;
+}
+.description {
+  position: relative;
+  background: green;
+  height: 900px;
+  width: 300px;
+  background: linear-gradient(180deg, #FFFFFF 59.6%, #D7DBDF 100%);
+
+}
+
+.team-details {
+background: radial-gradient(50% 50% at 50% 50%, rgba(1, 46, 77, 0.26) 0%, rgba(3, 106, 179, 0.26) 100%);
+    
+  height: 200px;
+  width: 300px;
+}
+.deschead {
+  margin-left: 450px;
+  font-family: Jacques Francois;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+.descpar {
+  margin-left: 20px;
+  
+}
+.sleft {
+  position: absolute;
+
+  margin-left: 20px;
+  bottom: 30px;
+  font-family: Kantumruy;
+font-size: 20px;
+font-weight: 300;
+line-height: 36.13px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.detail{
+    margin-left:50px;
+    font-family: Kantumruy;
+font-size: 20px;
+font-weight: 300;
+line-height: 36.13px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
 .header {
   display: flex;
   justify-content: flex-start;
@@ -80,4 +174,11 @@ h3 {
   width: 200px;
   height: 72px;
   background: transparent;
+}
+.buy-button {
+  color: white;
+  font-size: large;
+}
+.tdet{
+    margin-left:15px;
 }
